@@ -124,6 +124,8 @@ Location and distance insights:
 * `README.md` → Project Documentation
 
 ---
+## Dashboard Preview
+![Uber Dashboard](Dashboard.png.png)
 
 ## Conclusion
 
