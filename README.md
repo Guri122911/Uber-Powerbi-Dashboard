@@ -2,67 +2,72 @@
 
 ## Project Overview
 
-This project is an end-to-end Business Intelligence dashboard developed using Power BI. The goal of this project is to analyze Uber ride data and generate business insights related to bookings, revenue, distance, customer behavior, vehicle performance, and location analysis.
-
-The dashboard helps stakeholders understand key business metrics and make data-driven decisions.
+This project is an end-to-end Business Intelligence dashboard developed using Power BI to analyze Uber ride data and generate meaningful business insights. The dashboard focuses on bookings, revenue, distance, customer behavior, vehicle performance, and location-based analysis to support data-driven decision-making.
 
 ---
 
 ## Business Problems & Requirements
 
-### Overall Business Metrics
+The dashboard was developed based on the following business requirements:
 
-The dashboard provides the following key performance indicators:
+### Key Metrics
 
 * Completed Bookings
 * Lost Bookings
 * Total Revenue
 * Total Distance
 * Average Distance
-* Vehicle Type Filter
-* Monthly Analysis (Completed Bookings & Revenue)
-* Quarterly Analysis (Completed Bookings & Revenue)
-* Revenue by Vehicle Type
-* Top Pickup Locations (based on booking count)
-* Top Drop Locations (based on booking count)
 * Average Rider Ratings
 * Average Driver Ratings
+* Vehicle Type Filter
+
+### Time-Based Analysis
+
+* Monthly Booking Completed
+* Monthly Revenue
+* Quarterly Booking Completed
+* Quarterly Revenue
+
+### Business Analysis
+
+* Revenue by Vehicle Type
+* Top Pickup Location (based on booking count)
+* Top Drop Location (based on booking count)
+* Busy Time Slots
+* Busy Areas (High Demand Locations)
 
 ---
 
-## Dashboard Pages Description
+## Dashboard Pages
 
 ### 1. Overview Page
 
-This page shows overall business performance:
+Provides overall business performance:
 
 * Total Bookings
 * Completed Bookings
-* Cancelled / Lost Bookings
+* Lost Bookings
 * Total Revenue
 * Total Distance
 * Average Distance
+* Booking Status Distribution
+* Monthly & Quarterly Trends
 * Revenue by Vehicle Type
 * Top Pickup & Drop Locations
 * Average Ratings
-* Monthly & Quarterly Trends
-
----
 
 ### 2. Vehicle Analysis Page
 
-This page provides detailed vehicle performance:
+Detailed performance by vehicle type:
 
 * Booking Count by Vehicle
 * Revenue by Vehicle
-* Vehicle Contribution to Total Revenue
-* Vehicle-wise Performance Comparison
-
----
+* Revenue Contribution by Vehicle
+* Vehicle Performance Comparison
 
 ### 3. Revenue Analysis Page
 
-This page focuses on revenue insights:
+Revenue insights:
 
 * Revenue by Customer
 * Revenue by Vehicle Type
@@ -70,27 +75,23 @@ This page focuses on revenue insights:
 * Monthly Revenue Trend
 * Quarterly Revenue Trend
 
----
-
 ### 4. Rider Analysis Page
 
-This page analyzes rider behavior:
+Rider behavior and cancellations:
 
 * Cancelled Rides by Reason
 * Cancelled Rides by Payment Method
 * Monthly Cancelled Rides
 * Quarterly Cancelled Rides
 
----
-
 ### 5. Location Analysis Page
 
-This page shows location-based insights:
+Location and distance insights:
 
 * Monthly Total Distance
 * Total Distance by Vehicle Type
 * Busy Time Slots
-* Busy Areas (High Demand Locations)
+* Busy Areas (Top Pickup Locations)
 
 ---
 
@@ -99,24 +100,24 @@ This page shows location-based insights:
 * Power BI
 * Power Query (Data Transformation)
 * DAX (Data Analysis Expressions)
-* Excel (Dataset)
+* Microsoft Excel
 
 ---
 
-## Key Insights Generated
+## Key Insights
 
-* Booking trends over time (Monthly & Quarterly)
-* Revenue contribution by vehicle type
-* High-demand locations and peak time slots
-* Customer payment behavior
-* Cancellation reasons and patterns
-* Vehicle performance and revenue contribution
+* Identified peak booking months and revenue trends.
+* Analyzed which vehicle types generate the most revenue.
+* Found top pickup and drop locations based on demand.
+* Identified busy time slots and high-demand areas.
+* Analyzed cancellation reasons and payment methods.
+* Compared driver and customer ratings.
 
 ---
 
 ## Project Files
 
-* `Uber_Dashboard.pbix` → Power BI Dashboard File
+* `Uber_Dashboard.pbix` → Power BI Dashboard
 * `Uber_Data.xlsx` → Dataset
 * `Problem_Statement.pdf` → Business Problem Statement
 * `Dashboard.png` → Dashboard Screenshot
@@ -126,10 +127,11 @@ This page shows location-based insights:
 
 ## Conclusion
 
-This project demonstrates how raw data can be transformed into meaningful business insights using Power BI. The dashboard helps in tracking company performance, identifying business problems, and supporting data-driven decision-making.
+This project demonstrates how raw Uber ride data can be transformed into actionable insights using Power BI. The dashboard helps businesses track performance, identify problems, and improve operational and revenue strategies using data visualization and analytics.
 
 ---
 
 ## Author
 
 Gursewak singh
+
